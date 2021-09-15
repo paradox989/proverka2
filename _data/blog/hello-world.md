@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /Privetax
+path: /11111
 date: 2020-02-20T07:08:53.137Z
 title: 'Здарова Макс :) '
 metaDescription: Привет
