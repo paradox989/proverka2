@@ -61,4 +61,10 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],
+  developMiddleware: app => {
+    app.use('*', (req, res, next) => {
+      req.query.token = "125";
+      next();
+    })
+  },
 }
