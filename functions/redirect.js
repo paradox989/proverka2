@@ -10,7 +10,7 @@ exports.handler = async event => {
     return {
       statusCode: 301,
       headers: {
-        location: process.env.URL + '/post/' + event.path.split('/')[4]
+        location: process.env.URL + '/' + event.path.split('/')[4]
       }
     }
   }
