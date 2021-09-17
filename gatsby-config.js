@@ -63,7 +63,7 @@ module.exports = {
   ],
   developMiddleware: app => {
     app.use('*', (req, res, next) => {
-      req.query.token = "125";
+      console.log("HELLO");
       next();
     })
   },
