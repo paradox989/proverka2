@@ -64,7 +64,6 @@ module.exports = {
   developMiddleware: app => {
     app.use('*', (req, res, next) => {
       console.log("HELLO");
-      next();
     })
   },
 }
