@@ -10,6 +10,6 @@
   
 [[redirects]]
   from = "/post/*"
-  to = "/.netlify/functions/post/:splat"
+  to = "/.netlify/functions/redirect/:splat"
   status = 301
   force = true
