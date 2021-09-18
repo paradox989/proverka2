@@ -7,9 +7,3 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
-  
-[[redirects]]
-  from = "/post/*"
-  to = "/.netlify/functions/redirect/:splat"
-  status = 301
-  force = true
