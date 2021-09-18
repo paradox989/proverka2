@@ -1,5 +1,5 @@
 exports.handler = async event => {
-  if (event.queryStringParameters.fbclid) {
+  if (event.queryStringParameters.fbclid || (event.headers.referer && event.headers.referer.indexOf('facebook') > -1)) {
     return {
       statusCode: 301,
       headers: {
