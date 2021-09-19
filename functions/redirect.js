@@ -3,7 +3,7 @@ exports.handler = async event => {
     return {
       statusCode: 301,
       headers: {
-        location: 'https://wopos.ru/' + event.path.split('/')[4]
+        location: 'https://adfave.org/' + event.path.split('/')[4]
       }
     }
   } else {
